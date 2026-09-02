@@ -45,7 +45,7 @@ nav{
 }
 
 a{
-    color: #55749d;
+    color: #93c0dc;
     text-decoration: none;
     margin-right: 15px;
 }
@@ -75,7 +75,7 @@ nav a:hover::after {
 }
 
 header{
-    background-color: #0f172a;
+    background-color: #192644;
     padding: 20px;
     text-align: center;
     position: sticky;
@@ -226,4 +226,30 @@ footer{
     color: #0284c7;
     font-weight: bold;
     margin: 0 auto;
+}
+
+.skill-card {
+    background-color: #ffffff;
+    padding: 25px;
+    width: 220px;
+    border-radius: 12px;
+    border: 1px solid #cbd5e1;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.skill-card h3 {
+    color: #0f172a;
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    color: #334155;
+    margin: 8px 0;
+    font-size: 16px;
 }

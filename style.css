@@ -194,3 +194,36 @@ header{
 footer{
     color: #270c0c;
 }
+
+#about {
+    text-align: center;
+    padding: 50px 40px;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.about-highlight {
+    max-width: 400px;
+    margin: 30px auto 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-highlight h3 {
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.about-highlight p {
+    color: #0284c7;
+    font-weight: bold;
+    margin: 0 auto;
+}

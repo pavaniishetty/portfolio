@@ -128,23 +128,24 @@ header{
 
 .project-card {
     background-color: #ffffff;
-    padding: 20px;
-    width: 250px;
-    border-radius: 10px;
-    border: 1px solid #603434;
+    padding: 25px;
+    width: 280px;
+    border-radius: 12px;
+    border: 1px solid #cbd5e1;
     text-align: center;
 }
 
 .project-card {
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 .project-card h3 {
-    color: #804141;
+    color: #0f172a;
     margin-bottom: 10px;
 }
 
@@ -252,4 +253,15 @@ footer{
     color: #334155;
     margin: 8px 0;
     font-size: 16px;
+}
+
+.project-status {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 5px 12px;
+    background-color: #e0f2fe;
+    color: #0369a1;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
 }

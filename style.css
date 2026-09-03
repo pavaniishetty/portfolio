@@ -265,3 +265,25 @@ footer{
     font-size: 13px;
     font-weight: bold;
 }
+
+#contact {
+    text-align: center;
+    padding: 50px 40px;
+}
+
+#contact > p {
+    margin-bottom: 15px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+#contact a {
+    color: #0284c7;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#contact a:hover {
+    color: #0369a1;
+    text-decoration: underline;
+}

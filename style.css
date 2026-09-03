@@ -287,3 +287,16 @@ footer{
     color: #0369a1;
     text-decoration: underline;
 }
+
+footer {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
